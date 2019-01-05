@@ -80,9 +80,10 @@ def _each_txt2md(dirname, filename):
     md_texts.append('```')
     for page_pos, text in sorted(tupled_highlights, key=lambda x: int(x[0])):
         md_texts.append('  ')
-        md_texts.append(f'{page_pos}  ')
-        md_texts.append(f'{text}  ')
-    md_texts.append('```')
+        md_texts.append(f'@{page_pos}  ')
+        md_texts.append('```')
+        md_texts.append(f'> {text}  ')
+        md_texts.append('```')
     md_text = gen_header(
         title + ' by ' + author)
     md_text += '\n'.join(md_texts)

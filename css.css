@@ -10,10 +10,12 @@ body {
   letter-spacing: 0.04em;
   overflow:auto;
   margin: 100px 0px 0px 0px
+  word-break:break-all;
 }
 .container {
-  width: 90%;
-  max-width: 600px;
+  width: auto;
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   z-index: 100;
 }
