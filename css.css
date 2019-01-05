@@ -20,19 +20,50 @@ code {
 pre {
     white-space: pre-wrap;
 }
-h2 {
+h2 span{
   font-family: "Century Gothic",sans-serif;
+}
+h2 span{
+     text-align: center;
+}
+
+h2 span{
+     position: relative;
+     display: inline-block;
+     padding-bottom:0.5em;
+     border-bottom: 1px solid black;
+
+
+
+}
+
+h2 span::before,
+h2 span::after {
+     position: absolute;
+     top: 100%;
+     left:50%;
+     transform:translateX(-50%);
+     content: '';
+     border: 10px solid transparent;
+}
+
+h2 span::before {
+     border-top: 10px solid black;
+}
+
+h2 span::after {
+     margin-top: -1px;
+     border-top: 10px solid white;
 }
 a {
 	display: inline-block;
-  color: #99e550;
+	padding: 0.1em 0.3em;
+  color: #0af;
 	transition: all .3s;
-  font-weight: bold;
 }
 a:hover {
-	color: #000;
-	background-color: #99e550;
-  font-weight: bold;
+	color: #fff;
+	background-color: #0af;
 }
 .wavebox{
   width: 100%;
@@ -44,7 +75,7 @@ a:hover {
 }
 
 .wave {
-border-color: #99e550;
+border-color: #0af;
   border-style: solid;
   height: 150%;
   width: 150%;
