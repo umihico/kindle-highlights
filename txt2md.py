@@ -46,8 +46,8 @@ def _gen_index(txt_dirname, filenames):
              for filename in filenames]
     dicts.sort(key=lambda d: _beautify_date(d['date']), reverse=True)
     md_text = gen_header("my kindle-highlights")
-    md_text += "|book|date|title & author|\n"
-    md_text += "|---|---|---|\n"
+    md_text += "|book|date|\n"
+    md_text += "|---|---|\n"
     for d in dicts:
         url = f"http://umihi.co/kindle-highlights/md/{d['asin']}.html"
         imgurl = d['amazon_image_url']

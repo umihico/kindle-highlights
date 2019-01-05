@@ -3,8 +3,8 @@ layout: default
 title: my kindle-highlights
 ---
 
-|book|date|title & author|
-|---|---|---|
+|book|date|
+|---|---|
 |[![](http://images-jp.amazon.com/images/P/B01DNI2X8M.09.MZZZZZZZ.jpg)](http://umihi.co/kindle-highlights/md/B01DNI2X8M.html)|20191230|
 |[![](http://images-jp.amazon.com/images/P/B00FMI2XIW.09.MZZZZZZZ.jpg)](http://umihi.co/kindle-highlights/md/B00FMI2XIW.html)|20190105|
 |[![](http://images-jp.amazon.com/images/P/B071V7MY82.09.MZZZZZZZ.jpg)](http://umihi.co/kindle-highlights/md/B071V7MY82.html)|20190104|
