@@ -1,0 +1,7 @@
+{'amazon_image_url': 'http://images-jp.amazon.com/images/P/B01G2UHTVO.09.MZZZZZZZ.jpg',
+ 'amazon_url': 'https://www.amazon.co.jp/dp/B01G2UHTVO',
+ 'asin': 'B01G2UHTVO',
+ 'author': '竹下 雄真',
+ 'booktitle': '外資系エリートがすでに始めているヨガの習慣',
+ 'date': '日曜日 10月 14, 2018',
+ 'highlights': {339: '運動不足は喫煙よりも体に悪い という研究結果も'}}

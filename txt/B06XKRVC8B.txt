@@ -1,0 +1,7 @@
+{'amazon_image_url': 'http://images-jp.amazon.com/images/P/B06XKRVC8B.09.MZZZZZZZ.jpg',
+ 'amazon_url': 'https://www.amazon.co.jp/dp/B06XKRVC8B',
+ 'asin': 'B06XKRVC8B',
+ 'author': 'リチャード・セイラー、キャス・サンスティーン、遠藤 真美',
+ 'booktitle': '実践\u3000行動経済学',
+ 'date': '月曜日 12月 3, 2018',
+ 'highlights': {4894: '逆効果を生むものであり、アメリカ国民の多様性が非常に高いことを考えると、画一的なアプローチでは'}}

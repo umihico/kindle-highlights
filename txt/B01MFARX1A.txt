@@ -1,0 +1,7 @@
+{'amazon_image_url': 'http://images-jp.amazon.com/images/P/B01MFARX1A.09.MZZZZZZZ.jpg',
+ 'amazon_url': 'https://www.amazon.co.jp/dp/B01MFARX1A',
+ 'asin': 'B01MFARX1A',
+ 'author': '飲茶',
+ 'booktitle': '史上最強の哲学入門\u3000東洋の哲人たち (河出文庫)',
+ 'date': '金曜日 4月 27, 2018',
+ 'highlights': {683: '彼は大人になり、ヌイグルミとの同化をやめることができた。だが、彼は、根本的な問題を理解していない。そのため、今度は「容姿」「肩書き」「財産」「他人からの評判」「自己イメージ」、そういったものと再び同化して'}}

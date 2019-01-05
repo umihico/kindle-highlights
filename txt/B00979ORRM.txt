@@ -1,0 +1,7 @@
+{'amazon_image_url': 'http://images-jp.amazon.com/images/P/B00979ORRM.09.MZZZZZZZ.jpg',
+ 'amazon_url': 'https://www.amazon.co.jp/dp/B00979ORRM',
+ 'asin': 'B00979ORRM',
+ 'author': '原尻淳一',
+ 'booktitle': 'ＲＥＡＤＩＮＧ ＨＡＣＫＳ！',
+ 'date': '火曜日 1月 17, 2017',
+ 'highlights': {1226: '何のためにこの本を読んでいるのか、読む前にしっかりと認識しておけば、何気に本を読んでいる時より格段にスピードは速く'}}

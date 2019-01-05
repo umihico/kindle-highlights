@@ -1,0 +1,7 @@
+{'amazon_image_url': 'http://images-jp.amazon.com/images/P/B00CHIL9KS.09.MZZZZZZZ.jpg',
+ 'amazon_url': 'https://www.amazon.co.jp/dp/B00CHIL9KS',
+ 'asin': 'B00CHIL9KS',
+ 'author': '水野敬也',
+ 'booktitle': '夢をかなえるゾウ2 ガネーシャと貧乏神',
+ 'date': '土曜日 5月 5, 2018',
+ 'highlights': {2144: '「『いい人』というのは、他人を喜ばせるのではなく、他人から嫌われたくないという気持ちから自分の欲求を抑えつけてしまう人'}}
