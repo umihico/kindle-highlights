@@ -7,7 +7,6 @@ title: 多動力 (NewsPicks Book) by 堀江貴文
 ## Author:堀江貴文  
 ## Title:多動力 (NewsPicks Book)  
 ## Last highlight:木曜日 3月 29, 2018,Total highlights:6  
-```
   
 @206  
 「石の上で３年我慢できたら次の仕事を教えてやる」などと言う親方のもとで働いていては貴重な時間が失われるだけ  

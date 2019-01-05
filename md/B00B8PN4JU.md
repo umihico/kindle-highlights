@@ -7,7 +7,6 @@ title: ずる　嘘とごまかしの行動経済学 by ダン アリエリー�
 ## Author:ダン アリエリー、櫻井 祐子  
 ## Title:ずる　嘘とごまかしの行動経済学  
 ## Last highlight:木曜日 8月 9, 2018,Total highlights:54  
-```
   
 @84  
 シンプルな合理的犯罪  

@@ -7,7 +7,6 @@ title: 幸せになる勇気 by 岸見 一郎、古賀 史健
 ## Author:岸見 一郎、古賀 史健  
 ## Title:幸せになる勇気  
 ## Last highlight:火曜日 6月 5, 2018,Total highlights:40  
-```
   
 @632  
 われわれはもっと「他者の関心事」に関心を寄せる必要があり  

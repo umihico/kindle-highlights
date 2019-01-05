@@ -7,7 +7,6 @@ title: 中国の大問題 (PHP新書) by 丹羽 宇一郎
 ## Author:丹羽 宇一郎  
 ## Title:中国の大問題 (PHP新書)  
 ## Last highlight:水曜日 7月 15, 2015,Total highlights:35  
-```
   
 @18  
 人口は日本の一一倍、自動車の販売台数は四倍、ビールの消費量は八倍──。  

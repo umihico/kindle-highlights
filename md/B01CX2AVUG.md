@@ -7,7 +7,6 @@ title: スマートPythonプログラミング: Pythonのより良い書き方�
 ## Author:もみじあめ、Sonoko Asano  
 ## Title:スマートPythonプログラミング: Pythonのより良い書き方を学ぶ  
 ## Last highlight:日曜日 5月 20, 2018,Total highlights:11  
-```
   
 @553  
 pip install pudb  

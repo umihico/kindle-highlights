@@ -7,7 +7,6 @@ title: 夢をかなえるゾウ by 水野敬也
 ## Author:水野敬也  
 ## Title:夢をかなえるゾウ  
 ## Last highlight:火曜日 5月 8, 2018,Total highlights:5  
-```
   
 @2385  
 「期待は感情の借金やからなあ」  

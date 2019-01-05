@@ -7,7 +7,6 @@ title: 嫌われる勇気 by 岸見 一郎、古賀 史健
 ## Author:岸見 一郎、古賀 史健  
 ## Title:嫌われる勇気  
 ## Last highlight:木曜日 11月 29, 2018,Total highlights:110  
-```
   
 @22  
 人は変われる、世界はシンプルである、誰もが幸福になれる、  
