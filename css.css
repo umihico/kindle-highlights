@@ -10,7 +10,7 @@ body {
   letter-spacing: 0.04em;
   overflow:auto;
   margin: 100px 0px 0px 0px
-  word-break:break-all;
+
 }
 .container {
   width: auto;
@@ -99,4 +99,7 @@ a:hover {
 p.indent {
   text-indent: 1em;
   padding-left: 1em;
+}
+div.highlight {
+  word-break:break-all;
 }
