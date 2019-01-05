@@ -45,11 +45,6 @@ def _gen_index(txt_dirname, filenames):
     dicts = [load_from_txt(txt_dirname + '/' + filename)
              for filename in filenames]
     dicts.sort(key=lambda d: _beautify_date(d['date']), reverse=True)
-        d =
-        asin =
-        amazon_image_url = d['amazon_image_url']
-        date = _beautify_date(d['date'])
-        asins_imgurls_dates.append((asin, amazon_image_url, date))
     md_text = gen_header("my kindle-highlights")
     md_text += "|book|date|title & author|\n"
     md_text += "|---|---|---|\n"
@@ -58,7 +53,7 @@ def _gen_index(txt_dirname, filenames):
         imgurl = d['amazon_image_url']
         image = f"[![]({imgurl})]({url})"
         date = _beautify_date(d['date'])
-        title_author = d['title'] + "\n" + d['author']
+        title_author = d['booktitle'] + "\n" + d['author']
         md_text += f"|{image}|{date}|{title_author}|\n"
     _write_md('index.md', md_text)
 
