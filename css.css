@@ -9,11 +9,13 @@ body {
   max-width: 800px;
   margin: 0 auto;
   z-index: 100;
+  white-space: pre-wrap; 
 }
 
 code {
   word-break:break-all;
   word-wrap: break-word;
+  white-space: pre-wrap;
 }
 pre {
     white-space: pre-wrap;
