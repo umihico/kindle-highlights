@@ -1,13 +1,6 @@
-/* html { height: 100%; } */
 
 body {
   display: flex;
-  color: $color-dark-grey;
-  font-family: 'Inconsolata', monospace;
-  line-height: 150%;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.04em;
   overflow:auto;
   margin: 100px 0px 0px 0px
 
@@ -19,23 +12,6 @@ body {
   margin: 0 auto;
   z-index: 100;
 }
-h1 {
-  text-align: center;
-	line-height: 100%;
-	font-size: 180%;
-	text-decoration: underline;
-}
-
-h2 {
-
-	font-size: 130%;
-}
-.logo {
-  text-align: center;
-  display:block;
-
-}
-
 .wavebox{
   width: 100%;
   height: 100%;
@@ -78,27 +54,6 @@ border-color: #99e550;
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
-
-a {
-	display: inline-block;
-  color: #99e550;
-	transition: all .3s;
-  font-weight: bold;
-}
-a:hover {
-	color: #000;
-	background-color: #99e550;
-  font-weight: bold;
-}
-.name {
-  font-size: 1.1em;
-  font-weight:bold;
-}
-
-p.indent {
-  text-indent: 1em;
-  padding-left: 1em;
 }
 code {
   word-break:break-all;
