@@ -54,7 +54,7 @@ def _gen_index(txt_dirname, filenames):
         image = f"[![]({imgurl})]({url})"
         date = _beautify_date(d['date'])
         title_author = d['booktitle'] + "\n" + d['author']
-        md_text += f"|{image}|{date}|{title_author}|\n"
+        md_text += f"|{image}|{date}|\n"
     _write_md('index.md', md_text)
 
 
