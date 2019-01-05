@@ -79,15 +79,16 @@ def _each_txt2md(dirname, filename):
     highlights = d['highlights']
     cover = f"[![cover_img]({amazon_image_url})]({amazon_url})"
     md_texts = [cover + '  ']
-    md_texts.append(f"## Author:{author}  ")
-    md_texts.append(f"## Title:{title}  ")
+    md_texts.append(f"### Author:{author}  ")
+    md_texts.append(f"### Title:{title}  ")
     md_texts.append(
-        f"## Last highlight:{date},Total highlights:{len(highlights)}  ")
+        f"### Date:{date}, {len(highlights)} highlights")
     tupled_highlights = [x for x in highlights.items() if x[0] != '']
     for page_pos, text in sorted(tupled_highlights, key=lambda x: int(x[0])):
         md_texts.append('  ')
         md_texts.append(f'@{page_pos}  ')
         md_texts.append(f'{text}  ')
+        md_texts.append(f'***')
     md_text = gen_header(
         title + ' by ' + author)
     md_text += '\n'.join(md_texts)

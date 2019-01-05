@@ -9,7 +9,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   z-index: 100;
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
 }
 
 code {
@@ -19,6 +19,20 @@ code {
 }
 pre {
     white-space: pre-wrap;
+}
+h3 {
+  font-family: "Century Gothic",sans-serif;
+}
+a {
+	display: inline-block;
+  color: #99e550;
+	transition: all .3s;
+  font-weight: bold;
+}
+a:hover {
+	color: #000;
+	background-color: #99e550;
+  font-weight: bold;
 }
 .wavebox{
   width: 100%;
