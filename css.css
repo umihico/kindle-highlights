@@ -15,7 +15,9 @@ code {
   word-break:break-all;
   word-wrap: break-word;
 }
-
+pre {
+    white-space: pre-wrap;
+}
 .wavebox{
   width: 100%;
   height: 100%;
