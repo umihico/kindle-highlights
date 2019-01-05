@@ -41,18 +41,19 @@ def _test_bautify_date():
 
 
 def _gen_index(txt_dirname, filenames):
-    urls_imgurls_dates = []
+    asins_imgurls_dates = []
     for filename in filenames:
         d = load_from_txt(txt_dirname + '/' + filename)
-        amazon_url = d['amazon_url']
+        asin = d['asin']
         amazon_image_url = d['amazon_image_url']
         date = _beautify_date(d['date'])
-        urls_imgurls_dates.append((amazon_url, amazon_image_url, date))
-    urls_imgurls_dates.sort(key=lambda x: x[-1], reverse=True)
+        asins_imgurls_dates.append((asin, amazon_image_url, date))
+    asins_imgurls_dates.sort(key=lambda x: x[-1], reverse=True)
     md_text = gen_header("my kindle-highlights")
     md_text += "|book|date|\n"
     md_text += "|---|---|\n"
-    for url, imgurl, date in urls_imgurls_dates:
+    for asin, imgurl, date in asins_imgurls_dates:
+        url = f"md/{asin}.html"
         md_text += f"|![{url}]({imgurl})|{date}|\n"
     _write_md('index.md', md_text)
 
