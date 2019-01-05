@@ -2,6 +2,7 @@ import os
 from umihico.io_ import load_from_txt
 import re
 import codecs
+import itertools
 
 
 def gen_header(html_title):
@@ -46,15 +47,21 @@ def _gen_index(txt_dirname, filenames):
              for filename in filenames]
     dicts.sort(key=lambda d: _beautify_date(d['date']), reverse=True)
     md_text = gen_header("my kindle-highlights")
-    md_text += "|book|date|\n"
-    md_text += "|---|---|\n"
-    for d in dicts:
+    md_text += "|　|　|　|　|　|　|\n"
+    md_text += "|---|---|---|---|---|---|\n"
+    row_texts = []
+    for col, d in zip(itertools.cycle([0, 1, 2]), dicts):
         url = f"http://umihi.co/kindle-highlights/md/{d['asin']}.html"
         imgurl = d['amazon_image_url']
         image = f"[![]({imgurl})]({url})"
         date = _beautify_date(d['date'])
-        title_author = d['booktitle'] + "\n" + d['author']
-        md_text += f"|{image}|{date}|\n"
+        # title_author = d['booktitle'] + "\n" + d['author']
+        row_texts.append(f"{image}|{date}")
+        if col == 2:
+            md_text += f"|{'|'.join(row_texts)}|\n"
+            row_texts.clear()
+    if not row_texts:
+        md_text += f"|{'|'.join(row_texts)}|\n"
     _write_md('index.md', md_text)
 
 
