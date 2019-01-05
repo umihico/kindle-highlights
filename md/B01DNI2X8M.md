@@ -7,6 +7,7 @@ title: 楽しく学ぶJava入門　合本 (NextPublishing) by 大津 真
 ## Author:大津 真  
 ## Title:楽しく学ぶJava入門　合本 (NextPublishing)  
 ## Last highlight:日曜日 12月 30, 2019,Total highlights:7  
+```
   
 99  
 アプレット」（Applet）とは一般に小さなプログラムという意味で使われ  
@@ -28,3 +29,4 @@ Javaの場合、定数と変数に明確な区別はありませ
   
 2137  
 void」とは、メソッドが値を戻さないことを示し  
+```

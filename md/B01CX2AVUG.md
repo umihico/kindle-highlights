@@ -7,6 +7,7 @@ title: スマートPythonプログラミング: Pythonのより良い書き方�
 ## Author:もみじあめ、Sonoko Asano  
 ## Title:スマートPythonプログラミング: Pythonのより良い書き方を学ぶ  
 ## Last highlight:日曜日 5月 20, 2018,Total highlights:11  
+```
   
 553  
 pip install pudb  
@@ -40,3 +41,4 @@ docstring は公開されているモジュール、関数、クラス、メソ�
   
 2254  
 この is 演算子は、左辺と右辺のオブジェクトが全く同じものかを比較するためのものです。 つまり、左辺と右辺のオブジェクトがメモリ上の同じ場所に配置されているかの比較になり  
+```
