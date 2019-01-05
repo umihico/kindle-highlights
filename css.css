@@ -1,0 +1,100 @@
+/* html { height: 100%; } */
+
+body {
+  display: flex;
+  color: $color-dark-grey;
+  font-family: 'Inconsolata', monospace;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  overflow:auto;
+  margin: 100px 0px 0px 0px
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  z-index: 100;
+}
+h1 {
+  text-align: center;
+	line-height: 100%;
+	font-size: 180%;
+	text-decoration: underline;
+}
+
+h2 {
+
+	font-size: 130%;
+}
+.logo {
+  text-align: center;
+  display:block;
+
+}
+
+.wavebox{
+  width: 100%;
+  height: 100%;
+  /* background: #ddd; */
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+.wave {
+border-color: #99e550;
+  border-style: solid;
+  height: 150%;
+  width: 150%;
+  position: absolute;
+  top: -25%;
+  left: -25%;
+}
+.wave:nth-child(1) {
+  border-radius: 30% 70% 70% 30% / 40% 40% 60% 60% ;
+  animation: drift 30000ms infinite linear;
+  animation-delay: -10s;
+}
+.wave:nth-child(2) {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  animation: drift 50000ms infinite linear;
+  animation-delay: -5s;
+}
+.wave:nth-child(3) {
+  border-radius: 44% 56% 17% 83% / 40% 65% 35% 60% ;
+  animation: drift 70000ms infinite linear;
+  animation-delay: 0s;
+}
+@keyframes drift {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+a {
+	display: inline-block;
+  color: #99e550;
+	transition: all .3s;
+  font-weight: bold;
+}
+a:hover {
+	color: #000;
+	background-color: #99e550;
+  font-weight: bold;
+}
+.name {
+  font-size: 1.1em;
+  font-weight:bold;
+}
+
+p.indent {
+  text-indent: 1em;
+  padding-left: 1em;
+}
