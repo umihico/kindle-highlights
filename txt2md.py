@@ -54,7 +54,8 @@ def _gen_index(txt_dirname, filenames):
     md_text += "|---|---|\n"
     for asin, imgurl, date in asins_imgurls_dates:
         url = f"http://umihi.co/kindle-highlights/md/{asin}.html"
-        md_text += f"|![{url}]({imgurl})|{date}|\n"
+        image = f"[![]({imgurl})]({url})"
+        md_text += f"|{image}|{date}|\n"
     _write_md('index.md', md_text)
 
 
