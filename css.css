@@ -10,6 +10,12 @@ body {
   margin: 0 auto;
   z-index: 100;
 }
+
+code {
+  word-break:break-all;
+  word-wrap: break-word;
+}
+
 .wavebox{
   width: 100%;
   height: 100%;
@@ -52,7 +58,4 @@ border-color: #99e550;
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
-code {
-  word-break:break-all;
 }
