@@ -1,5 +1,5 @@
 # kindle-highlights
-Scripts to share highlights in your kindle library in github pages
+Share highlights that have been inspiring you in github pages
 
 ## How to build your own library
 * this script requires selenium,chrome and chromedriver.
