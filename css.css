@@ -72,6 +72,7 @@ a:hover {
   position: fixed;
   top: 0;
   overflow: hidden;
+  z-index: 0;
 }
 
 .wave {
@@ -82,6 +83,7 @@ border-color: #0af;
   position: absolute;
   top: -25%;
   left: -25%;
+  z-index: 0;
 }
 .wave:nth-child(1) {
   border-radius: 30% 70% 70% 30% / 40% 40% 60% 60% ;
