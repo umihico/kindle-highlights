@@ -7,8 +7,8 @@ body {
 }
 .container {
   width: auto;
-  width: 80%;
-  max-width: 800px;
+  width: 90%;
+  max-width: 600px;
   margin: 0 auto;
   z-index: 100;
   white-space: pre-wrap;
