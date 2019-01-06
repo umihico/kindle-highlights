@@ -47,8 +47,8 @@ def _gen_index(txt_dirname, filenames):
              for filename in filenames]
     dicts.sort(key=lambda d: _beautify_date(d['date']), reverse=True)
     md_text = gen_header("my kindle-highlights")
-    md_text += "|　|　|　|　|　|　|\n"
-    md_text += "|---|---|---|---|---|---|\n"
+    md_text += "|　|　|　|\n"
+    md_text += "|---|---|---|\n"
     row_texts = []
     for col, d in zip(itertools.cycle([0, 1, 2]), dicts):
         url = f"http://umihi.co/kindle-highlights/md/{d['asin']}.html"
@@ -56,7 +56,7 @@ def _gen_index(txt_dirname, filenames):
         image = f"[![]({imgurl})]({url})"
         date = _beautify_date(d['date'])
         # title_author = d['booktitle'] + "\n" + d['author']
-        row_texts.append(f"{image}|{date}")
+        row_texts.append(f"{image}<br>{date}")
         if col == 2:
             md_text += f"|{'|'.join(row_texts)}|\n"
             row_texts.clear()
