@@ -9,6 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 Chrome.xpath = Chrome.find_element_by_xpath
 Chrome.xpaths = Chrome.find_elements_by_xpath
 import itertools
+import sys
 
 
 def _gen_logined_chrome():
@@ -108,9 +109,11 @@ def _scraping_each(c):
     save_as_txt(filename, data)
 
 
-def scraping(index_nums=None):
+def scraping(scraping_book_amount=None):
     c = _gen_logined_chrome()
-    for _ in _iter_click_each_pages(c):
+    for i, _ in enumerate(_iter_click_each_pages(c)):
+        if i > scraping_book_amount:
+            break
         try:
             _scraping_each(c)
         except (Exception, ) as e:
@@ -118,4 +121,6 @@ def scraping(index_nums=None):
 
 
 if __name__ == '__main__':
-    scraping()
+
+    scraping_book_amount = int(sys.argv[1]) if len(sys.argv) >= 2 else None
+    scraping(scraping_book_amount)
