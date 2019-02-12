@@ -6,7 +6,7 @@ title: 異性の心を上手に透視する方法 by アミール・レバイン
 [![cover_img](http://images-jp.amazon.com/images/P/B01HELXUJK.09.MZZZZZZZ.jpg)](https://www.amazon.co.jp/dp/B01HELXUJK)  
 ### Author:アミール・レバイン、レイチェル・ヘラ―、塚越 悦子  
 ### Title:異性の心を上手に透視する方法  
-### Date:土曜日 1月 12, 2019, 44 highlights
+### Date:金曜日 2月 1, 2019, 44 highlights
   
 @84  
 子どもが親と結ぶアタッチメント（愛情の対象との関係）と、大人がパートナーに対して結ぶアタッチメントには似たパターンがみられる」  

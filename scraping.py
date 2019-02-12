@@ -25,7 +25,13 @@ def _gen_logined_chrome():
         if len(c.xpaths("//input[@id='ap_email']")) + len(c.xpaths("//input[@id='ap_password']")) == 0:
             break
         sleep(1)
-        print("waiting your login for", i, 'seconds')
+    if c.xpaths("//input[@id='continue' and @type='submit']"):
+        c.xpath("//input[@id='continue' and @type='submit']").click()
+        for i in itertools.count():
+            if not c.xpaths("//input[@name='code' and @type='text']"):
+                break
+                sleep(1)
+                print("waiting your code input.", i, 'seconds')
     return c
 
 

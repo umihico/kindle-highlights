@@ -1,0 +1,8 @@
+{'amazon_image_url': 'http://images-jp.amazon.com/images/P/B00GU4R9IG.09.MZZZZZZZ.jpg',
+ 'amazon_url': 'https://www.amazon.co.jp/dp/B00GU4R9IG',
+ 'asin': 'B00GU4R9IG',
+ 'author': '遠藤 秀紀',
+ 'booktitle': '人体\u3000失敗の進化史 (光文社新書)',
+ 'date': '金曜日 2月 1, 2019',
+ 'highlights': {16: 'ヒトの祖先をさかのぼると、早くも五億年くらい前には、いまの私たちに連なる動物が地球上に暮らしていたらしい。',
+                311: 'フライドチキンは、大昔の地球の支配者だったあの恐竜の末裔、そのものなのである。'}}
